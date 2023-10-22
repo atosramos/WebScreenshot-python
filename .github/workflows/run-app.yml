@@ -24,7 +24,7 @@ jobs:
     
     - name: Install dependencies
       run: |
-        sudo apt-get install unzip libgdk
+        sudo apt-get install unzip librust-gdk-pixbuf-sys-dev
         sudo pip install selenium
         # 安装 Chrome
         # 固定 Chrome 版本
