@@ -8,7 +8,7 @@ on:
 
 jobs:
   run-app:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu:xenial-20200619
 
     steps:
     - uses: actions/checkout@v2
