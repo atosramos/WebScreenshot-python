@@ -8,8 +8,7 @@ on:
 
 jobs:
   run-app:
-    runs-on: ubuntu:xenial-20200619
-
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.8
