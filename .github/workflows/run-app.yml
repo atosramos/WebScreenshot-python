@@ -30,7 +30,7 @@ jobs:
         # 固定 Chrome 版本
         # 注意: Chrome 版本必须与 chromedriver 版本对应
         #sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-        sudo dpkg -i google-chrome*.deb;wxit 0
+        sudo dpkg -i google-chrome*.deb;exit 0
         sudo apt install google-chrome-stable_current_amd64.deb;exit 0  
         sudo apt-get install -f
         # TODO: 输出Chrome版本, 失败
